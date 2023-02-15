@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Welcome Email</title>
+  <style>
+     h2{
+      color: orange;
+     }
+  </style>
+</head>
+<body>
+  <h2>Thank you, <%= name %>! For ordering from our Glory Taste. </h2>
+  <span>You ordered - </span>
+  <ul>
+    <% for(var i=0; i<cart.length; i++) {%>
+    <li> <%= cart[i].quantity %> <%= cart[i].name %> </li>
+    <% } %>
+  </ul>And
+  <div>Total cost is <%= totalCost %> $.</div>
+  <div>We will call your phone <%= phone %> when our delivery reach your address <%= address %>.</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "glory_taste_burger_shop",
+  "version": "1.0.0",
+  "description": "Burger shop app using React, NodeJs, ExpressJs, MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Myat Thura Soe",
+    "Burger Shop",
+    "React",
+    "MERN stack"
+  ],
+  "author": "Myat Thura Soe",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "googleapis": "^104.0.0",
+    "mongoose": "^6.4.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.5",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "nodemon": "^2.0.16"
+  }
+}
